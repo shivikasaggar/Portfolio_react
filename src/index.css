@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.s-card{
+    margin:20px;
+}
+.s-card-image {
+    border-radius: 10px;
+    width: 300px;
+    height: 380px;
+    box-shadow: 0px 0px 3px 3px #ccc;
+    margin-bottom: 25px;
+}
+.s-card-info{
+    min-height:100px;
+    margin-top:10px;
+}
+.s-cardtitle {
+    font-size: 24px;
+    margin: 0px;
+}
+.s-cardsub{
+    font-size:16px;
+    margin:0px;
+}
+
+.success-msg{
+    color:lightgreen;
+    padding:10px 15px;
+}
+.error-msg {
+    color: orangered;
+    padding: 10px 15px;
+}
+.jumb{
+    background-color:black;
+}
+.textstyle {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.social {
+   margin:5px 10px;
+    transition: transform 250ms;
+    display: inline-block;
+}
+    a.social:hover {
+        transform: translateY(-2px);
+    }
+a.youtube {
+    color: #eb3223;
+}
+a.facebook {
+    color: #4968ad;
+}
+
+a.github {
+    color: white;
+}
+
+a.instagram {
+    color: purple;
+}
+.progress-div {
+    background-color: rgb(233, 233, 233);
+    border-radius: .5rem;
+    margin:10px 0;
+}
+
+.percen {
+    background-color: #dc3b2f;
+    height: 10px;
+    border-radius: 1rem;
+    transition: 4s ease;
+    transition-delay: 0.5s;
+}
+.circleimg {
+    height: 140px;
+    position: absolute;
+   
+    right: 0px;
+}
+.mainimg {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+.acctog {
+    color: black;
+}
+.iconclass{
+    float:right;
+}
+@media only screen and (max-width: 768px) {
+    .mainimg{
+        right:10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mainimg {
+        right: 10px;
+    }
+}
+
+
