@@ -1,3 +1,7 @@
+The api used in contact page is done using express.js+sendgrid.
+i am making a different repo for that api.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
